@@ -1,0 +1,22 @@
+{
+    "data": {
+        "title": "Resources",
+        "resourceTypes": [
+            {
+                "id": "{7f29fe4f-c5f0-4402-a35e-6d7a1934ab68}",
+                "title": "Events",
+                "pageSize": 3
+            },
+            {
+                "id": "{0fa6fa88-3f42-4af0-acf5-31f43eb393c7}",
+                "title": "Articles",
+                "pageSize": 3
+            },
+            {
+                "id": "{28796bbb-6844-499b-a59a-cea5d758c16d}",
+                "title": "Testinomials",
+                "pageSize": 3
+            }
+        ]
+    }
+}
