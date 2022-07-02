@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const Resource = () => {
 
     useEffect(() => {
-        fetch('https://github.com/shlcharolia/react-best-practice/users')
+        fetch('https://mockend.com/shlcharolia/react-best-practice/users')
             .then(response => response.json())
             .then(data => console.log(data));
     }, []);
