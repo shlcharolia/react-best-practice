@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Resource = () => {
+
+    useEffect(() => {
+        fetch('https://github.com/shlcharolia/react-best-practice/users')
+            .then(response => response.json())
+            .then(data => console.log(data));
+    }, []);
+
     return <div className='container'>
         <div className='row gy-5'>
             <div className="row row-cols-1 row-cols-md-3 g-5">
