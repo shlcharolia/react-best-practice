@@ -6,10 +6,26 @@
         "avatarUrl": {
             "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
         },
-        "statusMessage": {
+        "primaryTaxonomy": {
             "string": [
-                "working from home",
-                "watching Netflix"
+                "Working",
+                "watching",
+                "Eating"
+            ]
+        },
+        "secondaryTaxonomy": {
+            "string": [
+                "Home",
+                "Netflix",
+                "Dinner"
+            ]
+        },
+        "type": {
+            "string": [
+                "Child",
+                "Younger",
+                "Elder",
+                "Older"
             ]
         },
         "email": {
